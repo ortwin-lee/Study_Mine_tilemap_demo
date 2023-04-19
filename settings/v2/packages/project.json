@@ -1,0 +1,30 @@
+{
+  "__version__": "1.0.4",
+  "general": {
+    "designResolution": {
+      "width": 768,
+      "height": 768
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "wall"
+      },
+      {
+        "index": 2,
+        "name": "hero"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 4,
+      "2": 2
+    }
+  },
+  "script": {
+    "loose": false
+  },
+  "layer": []
+}
